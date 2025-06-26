@@ -1,0 +1,145 @@
+.nav{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: rgba(255, 255, 255, 1);
+     padding: 6px  ;
+     background: #fff;
+    margin-top: -2%;
+       
+}
+
+.logo_icon{
+    width: 112px;
+    margin: 0px;
+
+}
+
+/*.btn{
+    flex: 1;
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin : 10px 20px;
+    font-size: 18px;
+    border-radius: none;
+}
+*/
+
+.Container{
+    font-size: 40px;
+    width: 250px;
+    height: 65px;
+    padding-top: 32px;
+    font-family: poppins;
+    margin-left: 0px;
+    padding-right: 0px;
+    background: #fff;
+}
+
+.btn{
+    text-align: left;
+    width: 947px;
+    background: #fff;
+    display: flex;
+    padding-bottom: 45px;
+    padding: 50px;
+    
+    float: left;
+    
+
+}
+
+button{
+    border-style: none;
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    font-size:15px;
+    font-family: poppins;
+    background: #fff;
+    color: rgba(154, 154, 154, 1);
+    Width:82px;
+    Height:23px;
+    cursor: pointer;
+
+    
+}
+
+.signup{
+    width: 136px;
+    height: 43px;
+    color: white;
+    background-color: blue;
+    align-items: end;
+}
+
+.sign{
+    border-style: none;
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    margin: 10px 10px;
+    font-size:15px;
+    font-family: poppins;
+    background: #fff;
+    color: rgba(154, 154, 154, 1);
+    cursor: pointer;
+
+}
+.login{
+    background: #fff;
+    display: flex;
+    padding-right: 80px;
+}
+
+.card
+{
+    
+    display: inline-flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    width:auto;
+    height:18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+h4
+{
+    color: blue;
+    size:12px; 
+    cursor: pointer;
+}
+
+h3{
+    size: 12px;
+    cursor: pointer;
+}
+
+h2{
+    padding-left: 14px;
+    padding-top: 15px;
+font-family: Poppins;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+p{
+    padding-left: 14px;
+    padding-top: 3px;
+font-family: sans-serif;;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+
+
