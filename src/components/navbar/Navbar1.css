@@ -1,31 +1,25 @@
 .nav{
-     width: 100%;
+     
      display: flex;
      align-items: center;
      justify-content: space-between;
-     background-color: rgba(255, 255, 255, 1);
      padding: 6px  ;
      background: #fff;
-    margin-top: -2%;
+     margin-top: -2%;
+     border: 1px solid rgb(177, 177, 177) ;
+     box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
+         margin-bottom: 5px;
        
 }
 
 .logo_icon{
     width: 112px;
     margin: 0px;
+    margin-left:40px ;
 
 }
 
-/*.btn{
-    flex: 1;
-    list-style: none;
-    text-align: left;
-    display: inline-block;
-    margin : 10px 20px;
-    font-size: 18px;
-    border-radius: none;
-}
-*/
+
 
 .Container{
     font-size: 40px;
@@ -38,17 +32,19 @@
     background: #fff;
 }
 
-.btn{
-    text-align: left;
-    width: 947px;
-    background: #fff;
-    display: flex;
-    padding-bottom: 45px;
-    padding: 50px;
-    
-    float: left;
-    
+.manu{
+    display: contents;
+    background-color: #fff;
+    color:  rgba(154, 154, 154, 1);
+    background-color: #fff;
+    font-size: 14px;
+    font-family: poppins ;
+}
 
+h3{
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 14x;
 }
 
 button{
@@ -96,50 +92,148 @@ button{
 
 .card
 {
-    
-    display: inline-flex;
-    justify-content: flex-start;
-    padding-top: 10px;
+    display:inline-flex;
+    padding-top: 0px;
     letter-spacing: 2px;
     font-size: 14px;
     width:auto;
     height:18px;
-    margin-left: 15px;
     cursor: pointer;
+    
 }
+
+
+
+
+/* This is Card css*/
+.main3{
+    display: inline;
+}
+.Main{
+    display:inline-flex;
+    width: max-content;
+    padding-left:100px;
+    
+}
+
+
+.maincard{
+    margin-left: 20px;
+    border: 1px solid rgb(177, 177, 177) ;
+    box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
+     margin: 10px;
+     
+     box-sizing: border-box;
+}
+
 
 h4
 {
     color: blue;
     size:12px; 
     cursor: pointer;
+    margin-left: 40px;
+
 }
 
-h3{
-    size: 12px;
-    cursor: pointer;
+.up{
+    color: black;
 }
 
 h2{
-    padding-left: 14px;
+    margin-left: 40px;
+    padding-left: 0;
     padding-top: 15px;
-font-family: Poppins;
-font-weight: 600;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
 
 }
 
 p{
-    padding-left: 14px;
+     margin-left: 40px;
+    padding-left: 0;
     padding-top: 3px;
-font-family: sans-serif;;
-font-weight: 600;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
+    font-family: sans-serif;;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
+
+.nova{
+ 
+    width: 100px;
+        padding-top: 10px;
+    background-color: #fff;
+
+}
+
+.box{
+    padding: 10px;
+}
+
+.box1{
+     background-color: #fff; 
+     display: flex;
+}
+
+
+
+.novabox{
+    margin-left: 10px;
+    background-color: #fff;
+    text-align:end;
+    padding-top: 15px;
+    color:  rgba(65, 75, 234, 1);
+    font-size:25px;
+
+    
+    
+}
+
+.h{
+    display: flex;
+    background-color: #fff;
+    display:inline;
+    padding-bottom: 10px;
+    margin-top: -2px;
+    margin-left: 140px;
+}
+
+.content{
+        display: flex;
+    background-color: white;
+}
+ ul{
+    padding-top: 35px;
+    background-color: #fff;
+    line-height: 100%;
+    color:rgba(90, 88, 88, 1);
+    font-size: 12px;
+}
+.content2{
+        display: flex;
+    background-color: white;
+}
+.content2 ul{
+    padding-top:2px;
+    background-color: #fff;
+    line-height: 100%;
+    color:black;
+    font-size: 12px;
+
+}
+.epack{
+    width: 100px;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+
+
 
 
 

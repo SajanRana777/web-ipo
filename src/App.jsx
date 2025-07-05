@@ -6,9 +6,9 @@ const App = () => {
   return (
     <div className='main'>
       <Navbar/>
-      <Card/>
-
+  <Card/>
           </div>
+          
           
   )
 }
